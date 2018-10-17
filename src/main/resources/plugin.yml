@@ -1,0 +1,5 @@
+name: MultiSpawn
+version: ${project.version}
+main: me.glaremasters.multispawn.MultiSpawn
+authors: [blockslayer22]
+description: MultiSpawn
