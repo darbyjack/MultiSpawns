@@ -11,7 +11,7 @@ public final class MultiSpawn extends JavaPlugin {
 
     @Override
     public void onEnable() {
-
+        saveDefaultConfig();
         manager = new BukkitCommandManager(this);
         manager.enableUnstableAPI("help");
         manager.registerCommand(new Commands());
